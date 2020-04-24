@@ -45,7 +45,9 @@ class Menu extends React.Component {
             </View>
 
             <View style={styles.textContainer}>
-            <TouchableHighlight>
+            <TouchableHighlight
+            onPress={() => this.props.navigation.navigate('Listm')}
+            >
            <View style={styles.touchableButton}>
                 <Text style={styles.buttonText}>
                       Meats
@@ -55,7 +57,9 @@ class Menu extends React.Component {
             </View>
 
             <View style={styles.textContainer}>
-            <TouchableHighlight>
+            <TouchableHighlight
+            onPress={() => this.props.navigation.navigate('Lists')}
+            >
            <View style={styles.touchableButton}>
                 <Text style={styles.buttonText}>
                       Salads
@@ -103,3 +107,4 @@ const styles = StyleSheet.create({
 
 
 export default Menu;
+
