@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     justifyContent: 'center',
+    alignItems: 'center',
   },
   header:{
     textAlign: 'center',
@@ -107,4 +108,3 @@ const styles = StyleSheet.create({
 
 
 export default Menu;
-
