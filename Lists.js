@@ -40,7 +40,7 @@ render() {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('GrilledChicken')}
         >
         <Image source ={{uri: 'https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/best_and_worst_salads_for_your_health_slideshow/493ss_thinkstock_rf_grilled_chicken_salad.jpg'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
@@ -52,7 +52,7 @@ render() {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('SpinachSalad')}
         >
         <Image source ={{uri: 'https://juliasalbum.com/wp-content/uploads/2019/03/simple-spinach-salad.jpg'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
