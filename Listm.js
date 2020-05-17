@@ -41,7 +41,7 @@ class Listm extends React.Component {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('Turkey')}
         >
         <Image source ={{uri: 'https://i0.wp.com/www.eatthis.com/wp-content/uploads/2018/11/roasted-turkey.jpg?resize=1024%2C750&ssl=1'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
@@ -53,7 +53,7 @@ class Listm extends React.Component {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('Pork')}
         >
         <Image source ={{uri: 'https://i0.wp.com/www.eatthis.com/wp-content/uploads/2015/05/grilled-pork-chop.jpg?w=1024&ssl=1'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
