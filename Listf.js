@@ -41,7 +41,7 @@ class Listf extends React.Component {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('Blackberries')}
         >
         <Image source ={{uri: 'https://p2.piqsels.com/preview/92/728/1006/blackberries-on-a-plate-black-fruit.jpg'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
@@ -53,7 +53,7 @@ class Listf extends React.Component {
         </Text>
 
         <TouchableHighlight
-        onPress={() => this.props.navigation.navigate('')}
+        onPress={() => this.props.navigation.navigate('Banana')}
         >
         <Image source ={{uri: 'https://p0.pikist.com/photos/931/884/bananas-fruit-food-fresh-mature-yellow-vitamins-diet-thumbnail.jpg'}}
  style={{ height: 150, width: 150, justifyContent: 'center', }}
